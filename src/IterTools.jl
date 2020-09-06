@@ -33,7 +33,8 @@ export
     takewhile,
     properties,
     propertyvalues,
-    fieldvalues
+    fieldvalues,
+    zip_longest
 
 function has_length(it)
     it_size = IteratorSize(it)
